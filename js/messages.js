@@ -1,5 +1,5 @@
 function Message (text) {
-    this.createdByhref = "http://w3w.co/lofts.mason.confused";
+    this.createdByhref = "https://map.what3words.com/lofts.mason.confused";
     this.createdBy = "LOFTS.MASON.CONFUSED";
     this.latitude = currentLocation.latidude;
     this.longitude = currentLocation.longitude;
@@ -50,10 +50,8 @@ function sendMessage() {
     document.getElementById("text").innerHTML = stringtext;
     document.getElementById("createdOn").innerHTML = stringcreatedOn;
     $('#href').attr("href","stringcreatedByhref");
-    //...$("#expiresIn").text("stringexpiresIn");
-    //...$("#createdBy").text("stringcreatedBy");
-    //...document.getElementById("expiresIn").innerHTML = stringexpiresIn + " min. left";
-    //...document.getElementById("createdBy").innerHTML = stringcreatedBy;
+    document.getElementById("expiresIn").innerHTML = stringexpiresIn + " min. left";
+    document.getElementById("createdBy").innerHTML = stringcreatedBy;
     
 
 
