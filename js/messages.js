@@ -52,8 +52,8 @@ function sendMessage() {
     $('#href').attr("href","stringcreatedByhref");
     //...$("#expiresIn").text("stringexpiresIn");
     //...$("#createdBy").text("stringcreatedBy");
-    document.getElementById("expiresIn").innerHTML = stringexpiresIn + " min. left";
-    document.getElementById("createdBy").innerHTML = stringcreatedBy;
+    //...document.getElementById("expiresIn").innerHTML = stringexpiresIn + " min. left";
+    //...document.getElementById("createdBy").innerHTML = stringcreatedBy;
     
 
 
